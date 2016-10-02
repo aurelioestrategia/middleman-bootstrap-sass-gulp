@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js ie lt-ie9 lt-ie8 lt-ie7" lang="<%= current_page.data.lang %>" itemscope itemtype="http://schema.org/WebSite"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js ie lt-ie9 lt-ie8" lang="<%= current_page.data.lang %>" itemscope itemtype="http://schema.org/WebSite"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js ie lt-ie9" lang="<%= current_page.data.lang %>" itemscope itemtype="http://schema.org/WebSite"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="<%= current_page.data.lang %>" itemscope itemtype="http://schema.org/WebSite"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <!--[if IE]><meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"><![endif]-->
+        <title><%= current_page.data.title %></title>
+        
+        <%= partial "partials/general/css" %>
+        <%= partial "partials/general/metas" %>
+        <%= partial "partials/general/headscripts" %>
+    </head>
+
+  <body class="<%= page_classes %>">
+
+    <%= partial "partials/blocks/bl-header" %>
+    <%= yield %>
+    <%= partial "partials/blocks/bl-footer" %>
+    <%= partial "partials/general/footerscripts" %>
+  </body>
+</html>

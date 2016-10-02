@@ -1,0 +1,49 @@
+/*------------------------------------*\
+
+    $GENERALSTYLES
+
+\*------------------------------------*/
+html {
+    font-size: 16px;
+    font-size: 1rem;
+    text-align: justify;
+}
+
+body {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 16px;
+    font-size: 1rem;
+    font-weight: 500;
+    color: rgb(102,102,102);
+    position: relative;
+    text-align: left;
+}
+
+strong {
+    font-weight: 700;
+}
+
+
+input:hover
+input:active, 
+input:focus, 
+textarea:active,
+textarea:hover,
+textarea:focus, 
+button:focus,
+button:active,
+button:hover
+{
+    outline: 0 !important;
+}
+
+a,
+button,
+input[type="submit"],
+input[type="button"] {
+    -webkit-transition: all 150ms ease-in-out;
+    -moz-transition: all 150ms ease-in-out;
+    -ms-transition: all 150ms ease-in-out;
+    -o-transition: all 150ms ease-in-out;
+    transition: all 150ms ease-in-out;
+}
