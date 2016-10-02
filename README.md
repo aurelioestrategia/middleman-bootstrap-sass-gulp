@@ -1,2 +1,1 @@
-# middleman-bootstrap-sass
-Middleman + Bootstrap + SASS + Atomic Design + Gulp
+# Middleman + Bootstrap + SASS + Atomic Design + Gulp
